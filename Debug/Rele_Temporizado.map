@@ -1,0 +1,1156 @@
+
+Map of Debug\Rele_Temporizado.sm8 from link file Debug\Rele_Temporizado.lkf - Tue Jul 26 09:13:57 2022
+
+
+                               --------
+                               Segments
+                               --------
+
+start 00008080 end 00008090 length    16 segment .const
+start 000080aa end 000092c2 length  4632 segment .text
+start 00004000 end 00004000 length     0 segment .eeprom
+start 00000000 end 00000012 length    18 segment .bsct, initialized
+start 00008098 end 000080aa length    18 segment .bsct, from
+start 00000012 end 0000002c length    26 segment .ubsct
+start 0000002c end 0000002c length     0 segment .bit
+start 0000002c end 0000002c length     0 segment .share
+start 00000100 end 00000100 length     0 segment .data
+start 00000100 end 00000100 length     0 segment .bss
+start 00000000 end 0000079b length  1947 segment .info.
+start 00000000 end 0000dfc3 length 57283 segment .debug
+start 00008000 end 00008080 length   128 segment .const
+start 00008090 end 00008098 length     8 segment .init
+
+
+                               -------
+                               Modules
+                               -------
+
+C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8:
+start 000080aa end 000080fa length    80 section .text
+start 00000100 end 00000100 length     0 section .bss
+start 00000012 end 00000012 length     0 section .ubsct
+start 00000000 end 00000034 length    52 section .info.
+
+Debug\main.o:
+start 000080fa end 000087c6 length  1740 section .text
+start 00000000 end 00000010 length    16 section .bsct
+start 00000012 end 00000022 length    16 section .ubsct
+start 00000000 end 000025b2 length  9650 section .debug
+start 00000034 end 0000009e length   106 section .info.
+start 00008080 end 00008084 length     4 section .const
+
+Debug\stm8s_it.o:
+start 000087c6 end 00008809 length    67 section .text
+start 00000010 end 00000012 length     2 section .bsct
+start 000025b2 end 00002bff length  1613 section .debug
+start 0000009e end 0000010c length   110 section .info.
+
+Debug\stm8s_adc1.o:
+start 00008809 end 00008c3c length  1075 section .text
+start 00002bff end 000041f0 length  5617 section .debug
+start 0000010c end 0000017c length   112 section .info.
+
+Debug\stm8s_clk.o:
+start 00008c3c end 00008fc0 length   900 section .text
+start 000041f0 end 0000585f length  5743 section .debug
+start 0000017c end 000001eb length   111 section .info.
+start 00008084 end 00008090 length    12 section .const
+
+Debug\stm8s_flash.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 0000585f end 0000663e length  3551 section .debug
+start 000001eb end 0000025c length   113 section .info.
+
+Debug\stm8s_gpio.o:
+start 00008fc0 end 00009072 length   178 section .text
+start 0000663e end 00007048 length  2570 section .debug
+start 0000025c end 000002cc length   112 section .info.
+
+Debug\stm8s_tim1.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 00007048 end 0000afd2 length 16266 section .debug
+start 000002cc end 0000033c length   112 section .info.
+
+Debug\stm8s_tim2.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 0000afd2 end 0000d2e6 length  8980 section .debug
+start 0000033c end 000003ac length   112 section .info.
+
+Debug\stm8s_tim4.o:
+start 00009072 end 00009150 length   222 section .text
+start 0000d2e6 end 0000de9d length  2999 section .debug
+start 000003ac end 0000041c length   112 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)cmulx.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 0000041c end 0000044c length    48 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ladd.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 0000044c end 0000047b length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lcmp.o:
+start 00009150 end 00009170 length    32 section .text
+start 0000047b end 000004aa length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgadd.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 000004aa end 000004da length    48 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lreg.o:
+start 00000022 end 00000026 length     4 section .ubsct
+start 000004da end 00000509 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ltor.o:
+start 00009170 end 00009182 length    18 section .text
+start 00000509 end 00000538 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ludiv.o:
+start 00009182 end 00009196 length    20 section .text
+start 00000538 end 00000568 length    48 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ldiv.o:
+start 00009196 end 00009281 length   235 section .text
+start 00000568 end 00000597 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgneg.o:
+start 00009281 end 00009294 length    19 section .text
+start 00000597 end 000005c7 length    48 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lneg.o:
+start 00009294 end 000092a9 length    21 section .text
+start 000005c7 end 000005f6 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)rtol.o:
+start 000092a9 end 000092bb length    18 section .text
+start 000005f6 end 00000625 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)utolx.o:
+start 000092bb end 000092c2 length     7 section .text
+start 00000625 end 00000655 length    48 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)umul.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 00000655 end 00000684 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)xreg.o:
+start 00000026 end 00000029 length     3 section .ubsct
+start 00000684 end 000006b3 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)yreg.o:
+start 00000029 end 0000002c length     3 section .ubsct
+start 000006b3 end 000006e2 length    47 section .info.
+
+Debug\stm8_interrupt_vector.o:
+start 0000de9d end 0000dfc3 length   294 section .debug
+start 000006e2 end 0000075d length   123 section .info.
+start 00008000 end 00008080 length   128 section .const
+
+
+                             -----------
+                             Stack usage
+                             -----------
+
+Debug\main.o:
+_Analisa_frequencia                     6   (2)
+_Delay_500us                            8   (8)
+_Desliga                               10   (6)
+_Espera_zero0                           2   (2)
+_Espera_zero1                           4   (2)
+_LerLDR                                 9   (2)
+_LerTrimpot                             9   (2)
+_Liga                                   8   (4)
+_VerificaDia                           11   (2)
+_VerificaNoite                         11   (2)
+_main                              >   13   (2)
+
+Debug\stm8s_adc1.o:
+_ADC1_AWDChannelConfig             >    4   (4)
+_ADC1_ClearFlag                    >    4   (4)
+_ADC1_ClearITPendingBit            >    5   (5)
+_ADC1_Cmd                               2   (2)
+_ADC1_ConversionConfig                  5   (5)
+_ADC1_DataBufferCmd                >    2   (2)
+_ADC1_DeInit                       >    2   (2)
+_ADC1_ExternalTriggerConfig             4   (4)
+_ADC1_GetAWDChannelStatus          >    4   (4)
+_ADC1_GetBufferValue               >    8   (8)
+_ADC1_GetConversionValue                7   (7)
+_ADC1_GetFlagStatus                     4   (4)
+_ADC1_GetITStatus                  >    5   (5)
+_ADC1_ITConfig                     >    5   (5)
+_ADC1_Init                         >   15   (10)
+_ADC1_PrescalerConfig                   3   (3)
+_ADC1_ScanModeCmd                  >    2   (2)
+_ADC1_SchmittTriggerConfig              4   (4)
+_ADC1_SetHighThreshold             >    4   (4)
+_ADC1_SetLowThreshold              >    2   (2)
+_ADC1_StartConversion                   2   (2)
+
+Debug\stm8s_clk.o:
+_CLK_AdjustHSICalibrationValue     >    3   (3)
+_CLK_CCOCmd                        >    2   (2)
+_CLK_CCOConfig                     >    3   (3)
+_CLK_ClearITPendingBit             >    2   (2)
+_CLK_ClockSecuritySystemEnable     >    2   (2)
+_CLK_ClockSwitchCmd                >    2   (2)
+_CLK_ClockSwitchConfig             >   10   (10)
+_CLK_DeInit                        >    2   (2)
+_CLK_FastHaltWakeUpCmd             >    2   (2)
+_CLK_GetClockFreq                  >   25   (11)
+_CLK_GetFlagStatus                 >    7   (7)
+_CLK_GetITStatus                   >    4   (4)
+_CLK_GetSYSCLKSource               >    2   (2)
+_CLK_HSECmd                        >    2   (2)
+_CLK_HSICmd                        >    2   (2)
+_CLK_HSIPrescalerConfig                 3   (3)
+_CLK_ITConfig                      >    4   (4)
+_CLK_LSICmd                        >    2   (2)
+_CLK_PeripheralClockConfig         >    4   (4)
+_CLK_SWIMConfig                    >    2   (2)
+_CLK_SYSCLKConfig                  >    3   (3)
+_CLK_SYSCLKEmergencyClear          >    2   (2)
+_CLK_SlowActiveHaltWakeUpCmd       >    2   (2)
+
+Debug\stm8s_gpio.o:
+_GPIO_DeInit                       >    2   (2)
+_GPIO_ExternalPullUpConfig         >    6   (6)
+_GPIO_Init                              6   (6)
+_GPIO_ReadInputData                >    2   (2)
+_GPIO_ReadInputPin                 >    5   (5)
+_GPIO_ReadOutputData               >    2   (2)
+_GPIO_Write                        >    5   (5)
+_GPIO_WriteHigh                    >    5   (5)
+_GPIO_WriteLow                     >    5   (5)
+_GPIO_WriteReverse                 >    5   (5)
+
+Debug\stm8s_it.o:
+f_ADC1_IRQHandler                  >    6   (6)
+f_AWU_IRQHandler                   >    6   (6)
+f_CLK_IRQHandler                   >    6   (6)
+f_EEPROM_EEC_IRQHandler            >    6   (6)
+f_EXTI_PORTA_IRQHandler            >    6   (6)
+f_EXTI_PORTB_IRQHandler            >    6   (6)
+f_EXTI_PORTC_IRQHandler            >    6   (6)
+f_EXTI_PORTD_IRQHandler            >    6   (6)
+f_EXTI_PORTE_IRQHandler            >    6   (6)
+f_I2C_IRQHandler                   >    6   (6)
+f_NonHandledInterrupt              >    6   (6)
+f_SPI_IRQHandler                   >    6   (6)
+f_TIM1_CAP_COM_IRQHandler          >    6   (6)
+f_TIM1_UPD_OVF_TRG_BRK_IRQHandler  >    6   (6)
+f_TIM2_CAP_COM_IRQHandler          >    6   (6)
+f_TIM2_UPD_OVF_BRK_IRQHandler      >    6   (6)
+f_TIM4_UPD_OVF_IRQHandler          >   14   (12)
+f_TLI_IRQHandler                   >    6   (6)
+f_TRAP_IRQHandler                  >    6   (6)
+f_UART1_RX_IRQHandler              >    6   (6)
+f_UART1_TX_IRQHandler              >    6   (6)
+
+Debug\stm8s_tim4.o:
+_TIM4_ARRPreloadConfig             >    2   (2)
+_TIM4_ClearFlag                         2   (2)
+_TIM4_ClearITPendingBit                 2   (2)
+_TIM4_Cmd                               2   (2)
+_TIM4_DeInit                       >    2   (2)
+_TIM4_GenerateEvent                >    2   (2)
+_TIM4_GetCounter                   >    2   (2)
+_TIM4_GetFlagStatus                >    3   (3)
+_TIM4_GetITStatus                  >    5   (5)
+_TIM4_GetPrescaler                 >    2   (2)
+_TIM4_ITConfig                          4   (4)
+_TIM4_PrescalerConfig              >    2   (2)
+_TIM4_SelectOnePulseMode           >    2   (2)
+_TIM4_SetAutoreload                >    2   (2)
+_TIM4_SetCounter                   >    2   (2)
+_TIM4_TimeBaseInit                      2   (2)
+_TIM4_UpdateDisableConfig          >    2   (2)
+_TIM4_UpdateRequestConfig          >    2   (2)
+
+Stack size: 39
+
+
+                              ---------
+                              Call tree
+                              ---------
+   1 > _ADC1_AWDChannelConfig: (4)
+
+   2 > _ADC1_ClearFlag: (4)
+
+   3 > _ADC1_ClearITPendingBit: (5)
+
+   4 > _ADC1_DataBufferCmd: (2)
+
+   5 > _ADC1_DeInit: (2)
+
+   6 > _ADC1_GetAWDChannelStatus: (4)
+
+   7 > _ADC1_GetBufferValue: (8)
+
+   8 > _ADC1_GetITStatus: (5)
+
+   9 > _ADC1_ITConfig: (5)
+
+  10 > _ADC1_Init: (10)
+  11      + _ADC1_ConversionConfig: (5)
+  12      + _ADC1_ExternalTriggerConfig: (4)
+  13      + _ADC1_PrescalerConfig: (3)
+  14      + _ADC1_SchmittTriggerConfig: (4)
+       
+  15 > _ADC1_ScanModeCmd: (2)
+
+  16 > _ADC1_SetHighThreshold: (4)
+
+  17 > _ADC1_SetLowThreshold: (2)
+
+  18 > _CLK_AdjustHSICalibrationValue: (3)
+
+  19 > _CLK_CCOCmd: (2)
+
+  20 > _CLK_CCOConfig: (3)
+
+  21 > _CLK_ClearITPendingBit: (2)
+
+  22 > _CLK_ClockSecuritySystemEnable: (2)
+
+  23 > _CLK_ClockSwitchCmd: (2)
+
+  24 > _CLK_ClockSwitchConfig: (10)
+
+  25 > _CLK_DeInit: (2)
+
+  26 > _CLK_FastHaltWakeUpCmd: (2)
+
+  27 > _CLK_GetClockFreq: (11)
+
+  28 > _CLK_GetFlagStatus: (7)
+
+  29 > _CLK_GetITStatus: (4)
+
+  30 > _CLK_GetSYSCLKSource: (2)
+
+  31 > _CLK_HSECmd: (2)
+
+  32 > _CLK_HSICmd: (2)
+
+  33 > _CLK_ITConfig: (4)
+
+  34 > _CLK_LSICmd: (2)
+
+  35 > _CLK_PeripheralClockConfig: (4)
+
+  36 > _CLK_SWIMConfig: (2)
+
+  37 > _CLK_SYSCLKConfig: (3)
+
+  38 > _CLK_SYSCLKEmergencyClear: (2)
+
+  39 > _CLK_SlowActiveHaltWakeUpCmd: (2)
+
+  40 > _GPIO_DeInit: (2)
+
+  41 > _GPIO_ExternalPullUpConfig: (6)
+
+  42 > _GPIO_ReadInputData: (2)
+
+  43 > _GPIO_ReadInputPin: (5)
+
+  44 > _GPIO_ReadOutputData: (2)
+
+  45 > _GPIO_Write: (5)
+
+  46 > _GPIO_WriteHigh: (5)
+
+  47 > _GPIO_WriteLow: (5)
+
+  48 > _GPIO_WriteReverse: (5)
+
+  49 > _TIM4_ARRPreloadConfig: (2)
+
+  50 > _TIM4_DeInit: (2)
+
+  51 > _TIM4_GenerateEvent: (2)
+
+  52 > _TIM4_GetCounter: (2)
+
+  53 > _TIM4_GetFlagStatus: (3)
+
+  54 > _TIM4_GetITStatus: (5)
+
+  55 > _TIM4_GetPrescaler: (2)
+
+  56 > _TIM4_PrescalerConfig: (2)
+
+  57 > _TIM4_SelectOnePulseMode: (2)
+
+  58 > _TIM4_SetAutoreload: (2)
+
+  59 > _TIM4_SetCounter: (2)
+
+  60 > _TIM4_UpdateDisableConfig: (2)
+
+  61 > _TIM4_UpdateRequestConfig: (2)
+
+  62 > __stext: (0)
+
+  63 > _main: (2)
+  64      + _Analisa_frequencia: (2)
+  65      |    + _Espera_zero0: (2)
+  66      |    + _Espera_zero1: (2)
+  67      |    |    + _Espera_zero0 --> 65
+          |    | 
+          | 
+  68      + _CLK_HSIPrescalerConfig: (3)
+  69      + _Delay_500us: (8)
+  70      + _Desliga: (6)
+  71      |    + _Espera_zero0 --> 65
+  72      |    + _Espera_zero1 --> 66
+          | 
+  73      + _GPIO_Init: (6)
+  74      + _LerLDR: (2)
+  75      |    + _ADC1_Cmd: (2)
+  76      |    + _ADC1_ConversionConfig --> 11
+  77      |    + _ADC1_GetConversionValue: (7)
+  78      |    + _ADC1_GetFlagStatus: (4)
+  79      |    + _ADC1_StartConversion: (2)
+          | 
+  80      + _LerTrimpot: (2)
+  81      |    + _ADC1_Cmd --> 75
+  82      |    + _ADC1_ConversionConfig --> 11
+  83      |    + _ADC1_GetConversionValue --> 77
+  84      |    + _ADC1_GetFlagStatus --> 78
+  85      |    + _ADC1_StartConversion --> 79
+          | 
+  86      + _Liga: (4)
+  87      |    + _Espera_zero0 --> 65
+  88      |    + _Espera_zero1 --> 66
+          | 
+  89      + _TIM4_ClearFlag: (2)
+  90      + _TIM4_Cmd: (2)
+  91      + _TIM4_ITConfig: (4)
+  92      + _TIM4_TimeBaseInit: (2)
+  93      + _VerificaDia: (2)
+  94      |    + _Delay_500us --> 69
+  95      |    + _LerLDR --> 74
+          | 
+  96      + _VerificaNoite: (2)
+  97      |    + _Delay_500us --> 69
+  98      |    + _LerLDR --> 74
+          | 
+       
+  99 > f_ADC1_IRQHandler: (6)
+
+ 100 > f_AWU_IRQHandler: (6)
+
+ 101 > f_CLK_IRQHandler: (6)
+
+ 102 > f_EEPROM_EEC_IRQHandler: (6)
+
+ 103 > f_EXTI_PORTA_IRQHandler: (6)
+
+ 104 > f_EXTI_PORTB_IRQHandler: (6)
+
+ 105 > f_EXTI_PORTC_IRQHandler: (6)
+
+ 106 > f_EXTI_PORTD_IRQHandler: (6)
+
+ 107 > f_EXTI_PORTE_IRQHandler: (6)
+
+ 108 > f_I2C_IRQHandler: (6)
+
+ 109 > f_NonHandledInterrupt: (6)
+
+ 110 > f_SPI_IRQHandler: (6)
+
+ 111 > f_TIM1_CAP_COM_IRQHandler: (6)
+
+ 112 > f_TIM1_UPD_OVF_TRG_BRK_IRQHandler: (6)
+
+ 113 > f_TIM2_CAP_COM_IRQHandler: (6)
+
+ 114 > f_TIM2_UPD_OVF_BRK_IRQHandler: (6)
+
+ 115 > f_TIM4_UPD_OVF_IRQHandler: (12)
+ 116      + _TIM4_ClearITPendingBit: (2)
+       
+ 117 > f_TLI_IRQHandler: (6)
+
+ 118 > f_TRAP_IRQHandler: (6)
+
+ 119 > f_UART1_RX_IRQHandler: (6)
+
+ 120 > f_UART1_TX_IRQHandler: (6)
+
+ 121   _ADC1_Cmd --> 75
+
+ 122   _ADC1_ConversionConfig --> 11
+
+ 123   _ADC1_ExternalTriggerConfig --> 12
+
+ 124   _ADC1_GetConversionValue --> 77
+
+ 125   _ADC1_GetFlagStatus --> 78
+
+ 126   _ADC1_PrescalerConfig --> 13
+
+ 127   _ADC1_SchmittTriggerConfig --> 14
+
+ 128   _ADC1_StartConversion --> 79
+
+ 129   _Analisa_frequencia --> 64
+
+ 130   _CLK_HSIPrescalerConfig --> 68
+
+ 131   _Delay_500us --> 69
+
+ 132   _Desliga --> 70
+
+ 133   _Espera_zero0 --> 65
+
+ 134   _Espera_zero1 --> 66
+
+ 135   _GPIO_Init --> 73
+
+ 136   _LerLDR --> 74
+
+ 137   _LerTrimpot --> 80
+
+ 138   _Liga --> 86
+
+ 139   _TIM4_ClearFlag --> 89
+
+ 140   _TIM4_ClearITPendingBit --> 116
+
+ 141   _TIM4_Cmd --> 90
+
+ 142   _TIM4_ITConfig --> 91
+
+ 143   _TIM4_TimeBaseInit --> 92
+
+ 144   _VerificaDia --> 93
+
+ 145   _VerificaNoite --> 96
+
+
+
+                               -------
+                               Symbols
+                               -------
+
+_ADC1_AWDChannelConfig              000089de   defined in Debug\stm8s_adc1.o section .text
+_ADC1_ClearFlag                     00008b41   defined in Debug\stm8s_adc1.o section .text
+_ADC1_ClearITPendingBit             00008bea   defined in Debug\stm8s_adc1.o section .text
+_ADC1_Cmd                           00008862   defined in Debug\stm8s_adc1.o section .text
+                                               used in Debug\main.o
+_ADC1_ConversionConfig              00008946   defined in Debug\stm8s_adc1.o section .text
+                                               used in Debug\main.o
+_ADC1_DataBufferCmd                 0000887e   defined in Debug\stm8s_adc1.o section .text
+_ADC1_DeInit                        00008809   defined in Debug\stm8s_adc1.o section .text
+_ADC1_ExternalTriggerConfig         00008974   defined in Debug\stm8s_adc1.o section .text
+_ADC1_GetAWDChannelStatus           00008ab7   defined in Debug\stm8s_adc1.o section .text
+_ADC1_GetBufferValue                00008a5e   defined in Debug\stm8s_adc1.o section .text
+_ADC1_GetConversionValue            0000899a   defined in Debug\stm8s_adc1.o section .text
+                                               used in Debug\main.o
+_ADC1_GetFlagStatus                 00008ae7   defined in Debug\stm8s_adc1.o section .text
+                                               used in Debug\main.o
+_ADC1_GetITStatus                   00008b9c   defined in Debug\stm8s_adc1.o section .text
+_ADC1_ITConfig                      0000888c   defined in Debug\stm8s_adc1.o section .text
+_ADC1_Init                          0000883a   defined in Debug\stm8s_adc1.o section .text
+_ADC1_PrescalerConfig               000088a5   defined in Debug\stm8s_adc1.o section .text
+_ADC1_ScanModeCmd                   00008870   defined in Debug\stm8s_adc1.o section .text
+_ADC1_SchmittTriggerConfig          000088b8   defined in Debug\stm8s_adc1.o section .text
+_ADC1_SetHighThreshold              00008a45   defined in Debug\stm8s_adc1.o section .text
+_ADC1_SetLowThreshold               00008a53   defined in Debug\stm8s_adc1.o section .text
+_ADC1_StartConversion               00008995   defined in Debug\stm8s_adc1.o section .text
+                                               used in Debug\main.o
+_ADC_CR1                            00005401   defined in Debug\main.o
+_ADC_CR2                            00005402   defined in Debug\main.o
+_ADC_CR3                            00005403   defined in Debug\main.o
+_ADC_CSR                            00005400   defined in Debug\main.o
+_ADC_DRH                            00005404   defined in Debug\main.o
+_ADC_DRL                            00005405   defined in Debug\main.o
+_ADC_TDRH                           00005406   defined in Debug\main.o
+_ADC_TDRL                           00005407   defined in Debug\main.o
+_AWU_APR                            000050f1   defined in Debug\main.o
+_AWU_CSR1                           000050f0   defined in Debug\main.o
+_AWU_TBR                            000050f2   defined in Debug\main.o
+_AjusteTrimpot                      00000006   defined in Debug\main.o section .bsct, initialized
+_Analisa_frequencia                 00008721   defined in Debug\main.o section .text
+_BEEP_CSR                           000050f3   defined in Debug\main.o
+_CAN_DGR                            00005426   defined in Debug\main.o
+_CAN_FPSR                           00005427   defined in Debug\main.o
+_CAN_IER                            00005425   defined in Debug\main.o
+_CAN_MCR                            00005420   defined in Debug\main.o
+_CAN_MSR                            00005421   defined in Debug\main.o
+_CAN_P0                             00005428   defined in Debug\main.o
+_CAN_P1                             00005429   defined in Debug\main.o
+_CAN_P2                             0000542a   defined in Debug\main.o
+_CAN_P3                             0000542b   defined in Debug\main.o
+_CAN_P4                             0000542c   defined in Debug\main.o
+_CAN_P5                             0000542d   defined in Debug\main.o
+_CAN_P6                             0000542e   defined in Debug\main.o
+_CAN_P7                             0000542f   defined in Debug\main.o
+_CAN_P8                             00005430   defined in Debug\main.o
+_CAN_P9                             00005431   defined in Debug\main.o
+_CAN_PA                             00005432   defined in Debug\main.o
+_CAN_PB                             00005433   defined in Debug\main.o
+_CAN_PC                             00005434   defined in Debug\main.o
+_CAN_PD                             00005435   defined in Debug\main.o
+_CAN_PE                             00005436   defined in Debug\main.o
+_CAN_PF                             00005437   defined in Debug\main.o
+_CAN_RFR                            00005424   defined in Debug\main.o
+_CAN_TPR                            00005423   defined in Debug\main.o
+_CAN_TSR                            00005422   defined in Debug\main.o
+_CFG_GCR                            00007f60   defined in Debug\main.o
+_CLKPrescTable                      00008088   defined in Debug\stm8s_clk.o section .const
+_CLK_AdjustHSICalibrationValue      00008f16   defined in Debug\stm8s_clk.o section .text
+_CLK_CANCCR                         000050cb   defined in Debug\main.o
+_CLK_CCOCmd                         00008cac   defined in Debug\stm8s_clk.o section .text
+_CLK_CCOConfig                      00008e0f   defined in Debug\stm8s_clk.o section .text
+_CLK_CCOR                           000050c9   defined in Debug\main.o
+_CLK_CKDIVR                         000050c6   defined in Debug\main.o
+_CLK_CMSR                           000050c3   defined in Debug\main.o
+_CLK_CSSR                           000050c8   defined in Debug\main.o
+_CLK_ClearITPendingBit              00008fb1   defined in Debug\stm8s_clk.o section .text
+_CLK_ClockSecuritySystemEnable      00008e99   defined in Debug\stm8s_clk.o section .text
+_CLK_ClockSwitchCmd                 00008cba   defined in Debug\stm8s_clk.o section .text
+_CLK_ClockSwitchConfig              00008d42   defined in Debug\stm8s_clk.o section .text
+_CLK_DeInit                         00008c3c   defined in Debug\stm8s_clk.o section .text
+_CLK_ECKCR                          000050c1   defined in Debug\main.o
+_CLK_FastHaltWakeUpCmd              00008c74   defined in Debug\stm8s_clk.o section .text
+_CLK_GetClockFreq                   00008ea2   defined in Debug\stm8s_clk.o section .text
+_CLK_GetFlagStatus                  00008f28   defined in Debug\stm8s_clk.o section .text
+_CLK_GetITStatus                    00008f85   defined in Debug\stm8s_clk.o section .text
+_CLK_GetSYSCLKSource                00008e9e   defined in Debug\stm8s_clk.o section .text
+_CLK_HSECmd                         00008c82   defined in Debug\stm8s_clk.o section .text
+_CLK_HSICmd                         00008c90   defined in Debug\stm8s_clk.o section .text
+_CLK_HSIPrescalerConfig             00008dfc   defined in Debug\stm8s_clk.o section .text
+                                               used in Debug\main.o
+_CLK_HSITRIMR                       000050cc   defined in Debug\main.o
+_CLK_ICKCR                          000050c0   defined in Debug\main.o
+_CLK_ITConfig                       00008e26   defined in Debug\stm8s_clk.o section .text
+_CLK_LSICmd                         00008c9e   defined in Debug\stm8s_clk.o section .text
+_CLK_PCKENR1                        000050c7   defined in Debug\main.o
+_CLK_PCKENR2                        000050ca   defined in Debug\main.o
+_CLK_PeripheralClockConfig          00008cd6   defined in Debug\stm8s_clk.o section .text
+_CLK_SWCR                           000050c5   defined in Debug\main.o
+_CLK_SWIMCCR                        000050cd   defined in Debug\main.o
+_CLK_SWIMConfig                     00008e8b   defined in Debug\stm8s_clk.o section .text
+_CLK_SWR                            000050c4   defined in Debug\main.o
+_CLK_SYSCLKConfig                   00008e5e   defined in Debug\stm8s_clk.o section .text
+_CLK_SYSCLKEmergencyClear           00008f23   defined in Debug\stm8s_clk.o section .text
+_CLK_SlowActiveHaltWakeUpCmd        00008cc8   defined in Debug\stm8s_clk.o section .text
+_DM_BK1RE                           00007f90   defined in Debug\main.o
+_DM_BK1RH                           00007f91   defined in Debug\main.o
+_DM_BK1RL                           00007f92   defined in Debug\main.o
+_DM_BK2RE                           00007f93   defined in Debug\main.o
+_DM_BK2RH                           00007f94   defined in Debug\main.o
+_DM_BK2RL                           00007f95   defined in Debug\main.o
+_DM_CR1                             00007f96   defined in Debug\main.o
+_DM_CR2                             00007f97   defined in Debug\main.o
+_DM_CSR1                            00007f98   defined in Debug\main.o
+_DM_CSR2                            00007f99   defined in Debug\main.o
+_DM_ENFCTR                          00007f9a   defined in Debug\main.o
+_Delay_500us                        0000852d   defined in Debug\main.o section .text
+_Desliga                            00008639   defined in Debug\main.o section .text
+_EXTI_CR1                           000050a0   defined in Debug\main.o
+_EXTI_CR2                           000050a1   defined in Debug\main.o
+_Escuridade                         00000000   defined in Debug\main.o section .bsct, initialized
+_Espera_zero0                       00008509   defined in Debug\main.o section .text
+_Espera_zero1                       0000851a   defined in Debug\main.o section .text
+_FLASH_CR1                          0000505a   defined in Debug\main.o
+_FLASH_CR2                          0000505b   defined in Debug\main.o
+_FLASH_DUKR                         00005064   defined in Debug\main.o
+_FLASH_DeInit                       ********   *** removed from Debug\stm8s_flash.o ***
+_FLASH_EraseBlock                   ********   *** removed from Debug\stm8s_flash.o ***
+_FLASH_EraseByte                    ********   *** removed from Debug\stm8s_flash.o ***
+_FLASH_EraseOptionByte              ********   *** removed from Debug\stm8s_flash.o ***
+_FLASH_FPR                          0000505d   defined in Debug\main.o
+_FLASH_GetBootSize                  ********   *** removed from Debug\stm8s_flash.o ***
+_FLASH_GetFlagStatus                ********   *** removed from Debug\stm8s_flash.o ***
+_FLASH_GetLowPowerMode              ********   *** removed from Debug\stm8s_flash.o ***
+_FLASH_GetProgrammingTime           ********   *** removed from Debug\stm8s_flash.o ***
+_FLASH_IAPSR                        0000505f   defined in Debug\main.o
+_FLASH_ITConfig                     ********   *** removed from Debug\stm8s_flash.o ***
+_FLASH_Lock                         ********   *** removed from Debug\stm8s_flash.o ***
+_FLASH_NCR2                         0000505c   defined in Debug\main.o
+_FLASH_NFPR                         0000505e   defined in Debug\main.o
+_FLASH_PUKR                         00005062   defined in Debug\main.o
+_FLASH_ProgramBlock                 ********   *** removed from Debug\stm8s_flash.o ***
+_FLASH_ProgramByte                  ********   *** removed from Debug\stm8s_flash.o ***
+_FLASH_ProgramOptionByte            ********   *** removed from Debug\stm8s_flash.o ***
+_FLASH_ProgramWord                  ********   *** removed from Debug\stm8s_flash.o ***
+_FLASH_ReadByte                     ********   *** removed from Debug\stm8s_flash.o ***
+_FLASH_ReadOptionByte               ********   *** removed from Debug\stm8s_flash.o ***
+_FLASH_SetLowPowerMode              ********   *** removed from Debug\stm8s_flash.o ***
+_FLASH_SetProgrammingTime           ********   *** removed from Debug\stm8s_flash.o ***
+_FLASH_Unlock                       ********   *** removed from Debug\stm8s_flash.o ***
+_FLASH_WaitForLastOperation         ********   *** removed from Debug\stm8s_flash.o ***
+_GPIO_DeInit                        00008fc0   defined in Debug\stm8s_gpio.o section .text
+_GPIO_ExternalPullUpConfig          0000905a   defined in Debug\stm8s_gpio.o section .text
+_GPIO_Init                          00008fc8   defined in Debug\stm8s_gpio.o section .text
+                                               used in Debug\main.o
+_GPIO_ReadInputData                 00009050   defined in Debug\stm8s_gpio.o section .text
+_GPIO_ReadInputPin                  00009053   defined in Debug\stm8s_gpio.o section .text
+_GPIO_ReadOutputData                0000904e   defined in Debug\stm8s_gpio.o section .text
+_GPIO_Write                         00009030   defined in Debug\stm8s_gpio.o section .text
+_GPIO_WriteHigh                     00009038   defined in Debug\stm8s_gpio.o section .text
+_GPIO_WriteLow                      0000903f   defined in Debug\stm8s_gpio.o section .text
+_GPIO_WriteReverse                  00009047   defined in Debug\stm8s_gpio.o section .text
+_HSIDivFactor                       00008084   defined in Debug\stm8s_clk.o section .const
+_I2C_CCRH                           0000521c   defined in Debug\main.o
+_I2C_CCRL                           0000521b   defined in Debug\main.o
+_I2C_CR1                            00005210   defined in Debug\main.o
+_I2C_CR2                            00005211   defined in Debug\main.o
+_I2C_DR                             00005216   defined in Debug\main.o
+_I2C_FREQR                          00005212   defined in Debug\main.o
+_I2C_ITR                            0000521a   defined in Debug\main.o
+_I2C_OARH                           00005214   defined in Debug\main.o
+_I2C_OARL                           00005213   defined in Debug\main.o
+_I2C_PECR                           0000521e   defined in Debug\main.o
+_I2C_SR1                            00005217   defined in Debug\main.o
+_I2C_SR2                            00005218   defined in Debug\main.o
+_I2C_SR3                            00005219   defined in Debug\main.o
+_I2C_TRISER                         0000521d   defined in Debug\main.o
+_ITC_SPR1                           00007f70   defined in Debug\main.o
+_ITC_SPR2                           00007f71   defined in Debug\main.o
+_ITC_SPR3                           00007f72   defined in Debug\main.o
+_ITC_SPR4                           00007f73   defined in Debug\main.o
+_ITC_SPR5                           00007f74   defined in Debug\main.o
+_ITC_SPR6                           00007f75   defined in Debug\main.o
+_ITC_SPR7                           00007f76   defined in Debug\main.o
+_ITC_SPR8                           00007f77   defined in Debug\main.o
+_IWDG_KR                            000050e0   defined in Debug\main.o
+_IWDG_PR                            000050e1   defined in Debug\main.o
+_IWDG_RLR                           000050e2   defined in Debug\main.o
+_LerLDR                             000083e5   defined in Debug\main.o section .text
+_LerTrimpot                         00008404   defined in Debug\main.o section .text
+_Liga                               0000857a   defined in Debug\main.o section .text
+_Lux                                00000002   defined in Debug\main.o section .bsct, initialized
+_PAIDR                              0000500b   defined in Debug\main.o
+_PAODR                              0000500a   defined in Debug\main.o
+_PA_CR1                             00005003   defined in Debug\main.o
+_PA_CR2                             00005004   defined in Debug\main.o
+_PA_DDR                             00005002   defined in Debug\main.o
+_PA_IDR                             00005001   defined in Debug\main.o
+_PA_ODR                             00005000   defined in Debug\main.o
+_PBIDR                              00005006   defined in Debug\main.o
+_PBODR                              00005005   defined in Debug\main.o
+_PB_CR1                             00005008   defined in Debug\main.o
+_PB_CR2                             00005009   defined in Debug\main.o
+_PB_DDR                             00005007   defined in Debug\main.o
+_PB_IDR                             00005006   defined in Debug\main.o
+_PB_ODR                             00005005   defined in Debug\main.o
+_PCIDR                              0000500b   defined in Debug\main.o
+_PCODR                              0000500a   defined in Debug\main.o
+_PC_CR1                             0000500d   defined in Debug\main.o
+_PC_CR2                             0000500e   defined in Debug\main.o
+_PC_DDR                             0000500c   defined in Debug\main.o
+_PC_IDR                             0000500b   defined in Debug\main.o
+_PC_ODR                             0000500a   defined in Debug\main.o
+_PDIDR                              00005010   defined in Debug\main.o
+_PDODR                              0000500f   defined in Debug\main.o
+_PD_CR1                             00005012   defined in Debug\main.o
+_PD_CR2                             00005013   defined in Debug\main.o
+_PD_DDR                             00005011   defined in Debug\main.o
+_PD_IDR                             00005010   defined in Debug\main.o
+_PD_ODR                             0000500f   defined in Debug\main.o
+_PE_CR1                             00005017   defined in Debug\main.o
+_PE_CR2                             00005018   defined in Debug\main.o
+_PE_DDR                             00005016   defined in Debug\main.o
+_PE_IDR                             00005015   defined in Debug\main.o
+_PE_ODR                             00005014   defined in Debug\main.o
+_PF_CR1                             0000501c   defined in Debug\main.o
+_PF_CR2                             0000501d   defined in Debug\main.o
+_PF_DDR                             0000501b   defined in Debug\main.o
+_PF_IDR                             0000501a   defined in Debug\main.o
+_PF_ODR                             00005019   defined in Debug\main.o
+_PG_CR1                             00005021   defined in Debug\main.o
+_PG_CR2                             00005022   defined in Debug\main.o
+_PG_DDR                             00005020   defined in Debug\main.o
+_PG_IDR                             0000501f   defined in Debug\main.o
+_PG_ODR                             0000501e   defined in Debug\main.o
+_PH_CR1                             00005026   defined in Debug\main.o
+_PH_CR2                             00005027   defined in Debug\main.o
+_PH_DDR                             00005025   defined in Debug\main.o
+_PH_IDR                             00005024   defined in Debug\main.o
+_PH_ODR                             00005023   defined in Debug\main.o
+_PI_CR1                             0000502b   defined in Debug\main.o
+_PI_CR2                             0000502c   defined in Debug\main.o
+_PI_DDR                             0000502a   defined in Debug\main.o
+_PI_IDR                             00005029   defined in Debug\main.o
+_PI_ODR                             00005028   defined in Debug\main.o
+_RST_SR                             000050b3   defined in Debug\main.o
+_SPI_CR1                            00005200   defined in Debug\main.o
+_SPI_CR2                            00005201   defined in Debug\main.o
+_SPI_CRCPR                          00005205   defined in Debug\main.o
+_SPI_DR                             00005204   defined in Debug\main.o
+_SPI_ICR                            00005202   defined in Debug\main.o
+_SPI_RXCRCR                         00005206   defined in Debug\main.o
+_SPI_SR                             00005203   defined in Debug\main.o
+_SPI_TXCRCR                         00005207   defined in Debug\main.o
+_SWIM_CSR                           00007f80   defined in Debug\main.o
+_TIM1_ARRH                          00005262   defined in Debug\main.o
+_TIM1_ARRL                          00005263   defined in Debug\main.o
+_TIM1_ARRPreloadConfig              ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_BDTRConfig                    ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_BKR                           0000526d   defined in Debug\main.o
+_TIM1_CCER1                         0000525c   defined in Debug\main.o
+_TIM1_CCER2                         0000525d   defined in Debug\main.o
+_TIM1_CCMR1                         00005258   defined in Debug\main.o
+_TIM1_CCMR2                         00005259   defined in Debug\main.o
+_TIM1_CCMR3                         0000525a   defined in Debug\main.o
+_TIM1_CCMR4                         0000525b   defined in Debug\main.o
+_TIM1_CCPreloadControl              ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_CCR1H                         00005265   defined in Debug\main.o
+_TIM1_CCR1L                         00005266   defined in Debug\main.o
+_TIM1_CCR2H                         00005267   defined in Debug\main.o
+_TIM1_CCR2L                         00005268   defined in Debug\main.o
+_TIM1_CCR3H                         00005269   defined in Debug\main.o
+_TIM1_CCR3L                         0000526a   defined in Debug\main.o
+_TIM1_CCR4H                         0000526b   defined in Debug\main.o
+_TIM1_CCR4L                         0000526c   defined in Debug\main.o
+_TIM1_CCxCmd                        ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_CCxNCmd                       ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_CNTRH                         0000525e   defined in Debug\main.o
+_TIM1_CNTRL                         0000525f   defined in Debug\main.o
+_TIM1_CR1                           00005250   defined in Debug\main.o
+_TIM1_CR2                           00005251   defined in Debug\main.o
+_TIM1_ClearFlag                     ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_ClearITPendingBit             ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_Cmd                           ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_CounterModeConfig             ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_CtrlPWMOutputs                ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_DTR                           0000526e   defined in Debug\main.o
+_TIM1_DeInit                        ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_EGR                           00005257   defined in Debug\main.o
+_TIM1_ETR                           00005253   defined in Debug\main.o
+_TIM1_ETRClockMode1Config           ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_ETRClockMode2Config           ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_ETRConfig                     ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_EncoderInterfaceConfig        ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_ForcedOC1Config               ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_ForcedOC2Config               ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_ForcedOC3Config               ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_ForcedOC4Config               ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_GenerateEvent                 ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_GetCapture1                   ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_GetCapture2                   ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_GetCapture3                   ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_GetCapture4                   ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_GetCounter                    ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_GetFlagStatus                 ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_GetITStatus                   ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_GetPrescaler                  ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_ICInit                        ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_IER                           00005254   defined in Debug\main.o
+_TIM1_ITConfig                      ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_InternalClockConfig           ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_OC1FastConfig                 ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_OC1Init                       ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_OC1NPolarityConfig            ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_OC1PolarityConfig             ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_OC1PreloadConfig              ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_OC2FastConfig                 ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_OC2Init                       ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_OC2NPolarityConfig            ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_OC2PolarityConfig             ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_OC2PreloadConfig              ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_OC3FastConfig                 ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_OC3Init                       ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_OC3NPolarityConfig            ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_OC3PolarityConfig             ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_OC3PreloadConfig              ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_OC4FastConfig                 ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_OC4Init                       ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_OC4PolarityConfig             ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_OC4PreloadConfig              ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_OISR                          0000526f   defined in Debug\main.o
+_TIM1_PSCRH                         00005260   defined in Debug\main.o
+_TIM1_PSCRL                         00005261   defined in Debug\main.o
+_TIM1_PWMIConfig                    ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_PrescalerConfig               ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_RCR                           00005264   defined in Debug\main.o
+_TIM1_SMCR                          00005252   defined in Debug\main.o
+_TIM1_SR1                           00005255   defined in Debug\main.o
+_TIM1_SR2                           00005256   defined in Debug\main.o
+_TIM1_SelectCOM                     ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_SelectHallSensor              ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_SelectInputTrigger            ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_SelectMasterSlaveMode         ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_SelectOCxM                    ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_SelectOnePulseMode            ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_SelectOutputTrigger           ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_SelectSlaveMode               ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_SetAutoreload                 ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_SetCompare1                   ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_SetCompare2                   ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_SetCompare3                   ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_SetCompare4                   ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_SetCounter                    ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_SetIC1Prescaler               ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_SetIC2Prescaler               ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_SetIC3Prescaler               ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_SetIC4Prescaler               ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_TIxExternalClockConfig        ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_TimeBaseInit                  ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_UpdateDisableConfig           ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM1_UpdateRequestConfig           ********   *** removed from Debug\stm8s_tim1.o ***
+_TIM2_ARRH                          0000530d   defined in Debug\main.o
+_TIM2_ARRL                          0000530e   defined in Debug\main.o
+_TIM2_ARRPreloadConfig              ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_CCER1                         00005308   defined in Debug\main.o
+_TIM2_CCER2                         00005309   defined in Debug\main.o
+_TIM2_CCMR1                         00005305   defined in Debug\main.o
+_TIM2_CCMR2                         00005306   defined in Debug\main.o
+_TIM2_CCMR3                         00005307   defined in Debug\main.o
+_TIM2_CCR1H                         0000530f   defined in Debug\main.o
+_TIM2_CCR1L                         00005310   defined in Debug\main.o
+_TIM2_CCR2H                         00005311   defined in Debug\main.o
+_TIM2_CCR2L                         00005312   defined in Debug\main.o
+_TIM2_CCR3H                         00005313   defined in Debug\main.o
+_TIM2_CCR3L                         00005314   defined in Debug\main.o
+_TIM2_CCxCmd                        ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_CNTRH                         0000530a   defined in Debug\main.o
+_TIM2_CNTRL                         0000530b   defined in Debug\main.o
+_TIM2_CR1                           00005300   defined in Debug\main.o
+_TIM2_ClearFlag                     ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_ClearITPendingBit             ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_Cmd                           ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_DeInit                        ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_EGR                           00005304   defined in Debug\main.o
+_TIM2_ForcedOC1Config               ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_ForcedOC2Config               ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_ForcedOC3Config               ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_GenerateEvent                 ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_GetCapture1                   ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_GetCapture2                   ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_GetCapture3                   ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_GetCounter                    ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_GetFlagStatus                 ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_GetITStatus                   ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_GetPrescaler                  ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_ICInit                        ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_IER                           00005301   defined in Debug\main.o
+_TIM2_ITConfig                      ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_OC1Init                       ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_OC1PolarityConfig             ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_OC1PreloadConfig              ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_OC2Init                       ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_OC2PolarityConfig             ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_OC2PreloadConfig              ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_OC3Init                       ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_OC3PolarityConfig             ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_OC3PreloadConfig              ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_PSCR                          0000530c   defined in Debug\main.o
+_TIM2_PWMIConfig                    ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_PrescalerConfig               ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_SR1                           00005302   defined in Debug\main.o
+_TIM2_SR2                           00005303   defined in Debug\main.o
+_TIM2_SelectOCxM                    ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_SelectOnePulseMode            ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_SetAutoreload                 ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_SetCompare1                   ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_SetCompare2                   ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_SetCompare3                   ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_SetCounter                    ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_SetIC1Prescaler               ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_SetIC2Prescaler               ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_SetIC3Prescaler               ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_TimeBaseInit                  ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_UpdateDisableConfig           ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_UpdateRequestConfig           ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM3_ARRH                          0000532b   defined in Debug\main.o
+_TIM3_ARRL                          0000532c   defined in Debug\main.o
+_TIM3_CCER1                         00005327   defined in Debug\main.o
+_TIM3_CCMR1                         00005325   defined in Debug\main.o
+_TIM3_CCMR2                         00005326   defined in Debug\main.o
+_TIM3_CCR1H                         0000532d   defined in Debug\main.o
+_TIM3_CCR1L                         0000532e   defined in Debug\main.o
+_TIM3_CCR2H                         0000532f   defined in Debug\main.o
+_TIM3_CCR2L                         00005330   defined in Debug\main.o
+_TIM3_CNTRH                         00005328   defined in Debug\main.o
+_TIM3_CNTRL                         00005329   defined in Debug\main.o
+_TIM3_CR1                           00005320   defined in Debug\main.o
+_TIM3_EGR                           00005324   defined in Debug\main.o
+_TIM3_IER                           00005321   defined in Debug\main.o
+_TIM3_PSCR                          0000532a   defined in Debug\main.o
+_TIM3_SR1                           00005322   defined in Debug\main.o
+_TIM3_SR2                           00005323   defined in Debug\main.o
+_TIM4_ARR                           00005346   defined in Debug\main.o
+_TIM4_ARRPreloadConfig              000090ee   defined in Debug\stm8s_tim4.o section .text
+_TIM4_CNTR                          00005344   defined in Debug\main.o
+_TIM4_CR1                           00005340   defined in Debug\main.o
+_TIM4_ClearFlag                     00009123   defined in Debug\stm8s_tim4.o section .text
+                                               used in Debug\main.o
+_TIM4_ClearITPendingBit             0000914b   defined in Debug\stm8s_tim4.o section .text
+                                               used in Debug\stm8s_it.o
+_TIM4_Cmd                           00009094   defined in Debug\stm8s_tim4.o section .text
+                                               used in Debug\main.o
+_TIM4_DeInit                        00009072   defined in Debug\stm8s_tim4.o section .text
+_TIM4_EGR                           00005343   defined in Debug\main.o
+_TIM4_GenerateEvent                 000090fc   defined in Debug\stm8s_tim4.o section .text
+_TIM4_GetCounter                    00009108   defined in Debug\stm8s_tim4.o section .text
+_TIM4_GetFlagStatus                 00009110   defined in Debug\stm8s_tim4.o section .text
+_TIM4_GetITStatus                   00009128   defined in Debug\stm8s_tim4.o section .text
+_TIM4_GetPrescaler                  0000910c   defined in Debug\stm8s_tim4.o section .text
+_TIM4_IER                           00005341   defined in Debug\main.o
+_TIM4_ITConfig                      000090a2   defined in Debug\stm8s_tim4.o section .text
+                                               used in Debug\main.o
+_TIM4_PSCR                          00005345   defined in Debug\main.o
+_TIM4_PrescalerConfig               000090e5   defined in Debug\stm8s_tim4.o section .text
+_TIM4_SR                            00005342   defined in Debug\main.o
+_TIM4_SelectOnePulseMode            000090d7   defined in Debug\stm8s_tim4.o section .text
+_TIM4_SetAutoreload                 00009104   defined in Debug\stm8s_tim4.o section .text
+_TIM4_SetCounter                    00009100   defined in Debug\stm8s_tim4.o section .text
+_TIM4_TimeBaseInit                  0000908b   defined in Debug\stm8s_tim4.o section .text
+                                               used in Debug\main.o
+_TIM4_UpdateDisableConfig           000090bb   defined in Debug\stm8s_tim4.o section .text
+_TIM4_UpdateRequestConfig           000090c9   defined in Debug\stm8s_tim4.o section .text
+_Tempo                              0000000e   defined in Debug\main.o section .bsct, initialized
+_Tempo_espera                       0000000c   defined in Debug\main.o section .bsct, initialized
+_Tempo_rele_desliga                 00000008   defined in Debug\main.o section .bsct, initialized
+_Tempo_rele_liga                    00000012   defined in Debug\main.o section .ubsct
+_USART1_BRR1                        00005232   defined in Debug\main.o
+_USART1_BRR2                        00005233   defined in Debug\main.o
+_USART1_CR1                         00005234   defined in Debug\main.o
+_USART1_CR2                         00005235   defined in Debug\main.o
+_USART1_CR3                         00005236   defined in Debug\main.o
+_USART1_CR4                         00005237   defined in Debug\main.o
+_USART1_CR5                         00005238   defined in Debug\main.o
+_USART1_DR                          00005231   defined in Debug\main.o
+_USART1_GTR                         00005239   defined in Debug\main.o
+_USART1_PSCR                        0000523a   defined in Debug\main.o
+_USART1_SR                          00005230   defined in Debug\main.o
+_USART3_BRR1                        00005242   defined in Debug\main.o
+_USART3_BRR2                        00005243   defined in Debug\main.o
+_USART3_CR1                         00005244   defined in Debug\main.o
+_USART3_CR2                         00005245   defined in Debug\main.o
+_USART3_CR3                         00005246   defined in Debug\main.o
+_USART3_CR4                         00005247   defined in Debug\main.o
+_USART3_CR6                         00005249   defined in Debug\main.o
+_USART3_DR                          00005241   defined in Debug\main.o
+_USART3_SR                          00005240   defined in Debug\main.o
+_VerificaDia                        000084d7   defined in Debug\main.o section .text
+_VerificaNoite                      000084ad   defined in Debug\main.o section .text
+_WWDG_CR                            000050d1   defined in Debug\main.o
+_WWDG_WR                            000050d2   defined in Debug\main.o
+__endmem                            000001ff   defined in command file
+                                               *** not used ***
+__endzp                             0000002c   defined in command file section .ubsct
+                                               used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+__idesc__                           00008090   defined in linker section .init
+                                               used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+__memory                            00000100   defined in command file section .bss
+                                               used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+__stack                             000003ff   defined in command file
+                                               used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+__startmem                          00000100   defined in command file section .bss
+                                               *** not used ***
+__stext                             000080aa   defined in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8 section .text
+                                               used in Debug\stm8_interrupt_vector.o
+__vectab                            00008000   defined in Debug\stm8_interrupt_vector.o section .const
+_a                                  00000020   defined in Debug\main.o section .ubsct
+_b                                  0000001e   defined in Debug\main.o section .ubsct
+_c                                  0000001c   defined in Debug\main.o section .ubsct
+_cnt                                00000010   defined in Debug\stm8s_it.o section .bsct, initialized
+                                               used in Debug\main.o
+_d                                  0000001a   defined in Debug\main.o section .ubsct
+_down                               00000004   defined in Debug\main.o section .bsct, initialized
+_e                                  00000018   defined in Debug\main.o section .ubsct
+_exit                               000080f8   defined in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8 section .text
+_f                                  00000016   defined in Debug\main.o section .ubsct
+_main                               000080fa   defined in Debug\main.o section .text
+                                               used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+_top                                00000014   defined in Debug\main.o section .ubsct
+_var_ligar                          0000000a   defined in Debug\main.o section .bsct, initialized
+c_cmulx                             ********   *** removed from (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)cmulx.o ***
+c_divsl                             00009196   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ldiv.o section .text
+                                               *** not used ***
+c_divul                             000091ad   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ldiv.o section .text
+                                               used in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ludiv.o
+c_ladd                              ********   *** removed from (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ladd.o ***
+c_lcmp                              00009150   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lcmp.o section .text
+                                               used in Debug\main.o
+c_lgadd                             ********   *** removed from (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgadd.o ***
+c_lgneg                             00009281   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgneg.o section .text
+                                               used in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ldiv.o
+c_lneg                              00009294   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lneg.o section .text
+                                               used in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ldiv.o
+c_lreg                              00000022   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lreg.o section .ubsct
+                                               used in Debug\stm8s_clk.o
+                                                       Debug\stm8s_flash.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)cmulx.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ladd.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lcmp.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgadd.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ltor.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ldiv.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lneg.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)rtol.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)utolx.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)umul.o
+c_ltor                              00009170   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ltor.o section .text
+                                               used in Debug\stm8s_clk.o
+                                                       Debug\stm8s_flash.o
+c_ludv                              00009182   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ludiv.o section .text
+                                               used in Debug\stm8s_clk.o
+c_rtol                              000092a9   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)rtol.o section .text
+                                               used in Debug\stm8s_clk.o
+                                                       Debug\stm8s_flash.o
+c_uitolx                            000092bb   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)utolx.o section .text
+                                               used in Debug\main.o
+c_umul                              ********   *** removed from (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)umul.o ***
+c_x                                 00000026   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)xreg.o section .ubsct
+                                               used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+                                                       Debug\stm8s_it.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ldiv.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)umul.o
+c_y                                 00000029   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)yreg.o section .ubsct
+                                               used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+                                                       Debug\main.o
+                                                       Debug\stm8s_it.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)umul.o
+f_ADC1_IRQHandler                   000087d8   defined in Debug\stm8s_it.o section .text
+                                               used in Debug\stm8_interrupt_vector.o
+f_AWU_IRQHandler                    000087c9   defined in Debug\stm8s_it.o section .text
+                                               used in Debug\stm8_interrupt_vector.o
+f_CLK_IRQHandler                    000087ca   defined in Debug\stm8s_it.o section .text
+                                               used in Debug\stm8_interrupt_vector.o
+f_EEPROM_EEC_IRQHandler             00008808   defined in Debug\stm8s_it.o section .text
+                                               used in Debug\stm8_interrupt_vector.o
+f_EXTI_PORTA_IRQHandler             000087cb   defined in Debug\stm8s_it.o section .text
+                                               used in Debug\stm8_interrupt_vector.o
+f_EXTI_PORTB_IRQHandler             000087cc   defined in Debug\stm8s_it.o section .text
+                                               used in Debug\stm8_interrupt_vector.o
+f_EXTI_PORTC_IRQHandler             000087cd   defined in Debug\stm8s_it.o section .text
+                                               used in Debug\stm8_interrupt_vector.o
+f_EXTI_PORTD_IRQHandler             000087ce   defined in Debug\stm8s_it.o section .text
+                                               used in Debug\stm8_interrupt_vector.o
+f_EXTI_PORTE_IRQHandler             000087cf   defined in Debug\stm8s_it.o section .text
+                                               used in Debug\stm8_interrupt_vector.o
+f_I2C_IRQHandler                    000087d7   defined in Debug\stm8s_it.o section .text
+                                               used in Debug\stm8_interrupt_vector.o
+f_NonHandledInterrupt               000087c6   defined in Debug\stm8s_it.o section .text
+                                               used in Debug\stm8_interrupt_vector.o
+f_SPI_IRQHandler                    000087d0   defined in Debug\stm8s_it.o section .text
+                                               used in Debug\stm8_interrupt_vector.o
+f_TIM1_CAP_COM_IRQHandler           000087d2   defined in Debug\stm8s_it.o section .text
+                                               used in Debug\stm8_interrupt_vector.o
+f_TIM1_UPD_OVF_TRG_BRK_IRQHandler   000087d1   defined in Debug\stm8s_it.o section .text
+                                               used in Debug\stm8_interrupt_vector.o
+f_TIM2_CAP_COM_IRQHandler           000087d4   defined in Debug\stm8s_it.o section .text
+                                               used in Debug\stm8_interrupt_vector.o
+f_TIM2_UPD_OVF_BRK_IRQHandler       000087d3   defined in Debug\stm8s_it.o section .text
+                                               used in Debug\stm8_interrupt_vector.o
+f_TIM4_UPD_OVF_IRQHandler           000087d9   defined in Debug\stm8s_it.o section .text
+                                               used in Debug\stm8_interrupt_vector.o
+f_TLI_IRQHandler                    000087c8   defined in Debug\stm8s_it.o section .text
+                                               used in Debug\stm8_interrupt_vector.o
+f_TRAP_IRQHandler                   000087c7   defined in Debug\stm8s_it.o section .text
+                                               used in Debug\stm8_interrupt_vector.o
+f_UART1_RX_IRQHandler               000087d6   defined in Debug\stm8s_it.o section .text
+                                               used in Debug\stm8_interrupt_vector.o
+f_UART1_TX_IRQHandler               000087d5   defined in Debug\stm8s_it.o section .text
+                                               used in Debug\stm8_interrupt_vector.o
